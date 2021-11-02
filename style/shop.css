@@ -11,15 +11,32 @@
     height: 280px;
 }
 
+.mwk{
+    text-decoration: none;
+}
+
+.mwk:hover{
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+  }
+
+.flexbox3 .title1{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
 .shopimg img{
     width: 350px;
+    height: 200px;
     margin-left: 0px;
 }
 
 .solid {
     border: 5px solid rgb(0, 0, 0);
     width: 350px;
-    height: 310px;
+    height: 320px;
 }
 
 .dotted{
@@ -38,4 +55,14 @@
 .title1 {
     color: rgb(0, 0, 0);
     font-weight: 700;
+}
+
+.rights1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 333px;
+}
+
+.rights1 p{
+    margin-left: 50px;
 }

@@ -7,6 +7,43 @@
     margin-left: -10px;
     margin-top: 30px;
 }
+
+.logo1:hover{
+    animation-play-state: paused;
+    animation-duration: 1s;
+    animation-name: anim1;
+    transform: scale(1.5);
+    transition: 1.5s;
+    
+}
+
+.anim1 {
+    margin-top: -20px;
+    margin-left: 0px;
+	height: 100px;
+	position: absolute;
+	animation-name: anim1;
+	animation-duration: 7s;
+	animation-delay: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes anim1 {
+	0% {
+        top: 0%;
+      }
+      100% {
+        top: 144%;
+      }
+}
+.anim1:hover {
+    animation-play-state: paused;
+    animation-duration: 1s;
+    animation-name: anim1;
+    transform: scale(1.5);
+    transition: 1.5s;
+}
+
 header{
     display: flex;
     margin-left: 100px;
@@ -31,6 +68,7 @@ body{
 .text{
     color: rgb(0, 0, 0);
     margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     padding: 0px 40px;
     font-size: 17px;
@@ -70,7 +108,7 @@ footer{
 }
 
 .rights{
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     margin-left: 40px;
     margin-top: 50px;
@@ -122,13 +160,81 @@ nav ul li a{
     padding-right: 5px;
 }
 
-.rights1 {
-    color: rgb(0, 0, 0);
-    font-weight: bold;
+/* =========================== */
 
-    margin-top: 333px;
+.form{
+    padding-top: 150px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    font-family: montserrat;
 }
 
-.rights1 p{
-    margin-left: 50px;
+.titlecon{
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contactimg {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+
+
+.email{
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+}
+
+.phone{
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+}
+
+.comment{
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 100px;
+    padding: 5px;
+}
+
+.applybtn{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 25px 10px 25px;
+    font-size: 20px;
+    background-color: rgb(31, 83, 133);
+    color: white;
 }
